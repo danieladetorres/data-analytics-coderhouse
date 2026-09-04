@@ -1,1 +1,41 @@
+# Módulo 6 – Pipeline ETL y Modelado en Power BI
 
+## Proyecto: Análisis de Ventas RetailPro
+
+**Alumna:** Daniela De Torres  
+**Curso:** Data Analytics – Coderhouse
+
+## Descripción
+
+En este módulo se desarrolló un proceso ETL utilizando Power Query y Power BI, a partir de un dataset de ventas.
+
+El objetivo fue transformar los datos originales en un modelo estructurado y preparado para su posterior análisis y visualización.
+
+## Proceso ETL realizado
+
+Se realizaron tareas de:
+
+- Importación de datos desde Excel.
+- Limpieza y transformación de datos mediante Power Query.
+- Tratamiento de valores nulos.
+- Corrección de tipos de datos.
+- Eliminación de duplicados.
+- Creación de tablas dimensionales.
+- Organización de la información mediante un modelo de datos.
+
+## Modelo de datos
+
+El modelo está compuesto por:
+
+- Fact_Ventas
+- Dim_Clientes
+- Dim_Productos
+- Dim_Categorias
+
+Las tablas dimensionales permiten organizar la información de clientes, productos y categorías, mientras que Fact_Ventas concentra la información correspondiente a las operaciones de venta.
+
+## Archivo entregado
+
+`Pipeline_ETL_DeTorres_Daniela.pbix`
+
+Este archivo contiene el proceso de transformación realizado en Power Query y el modelo de datos desarrollado en Power BI.
